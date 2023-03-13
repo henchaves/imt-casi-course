@@ -1472,7 +1472,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 271,
-											"top": 398.5,
+											"top": 395.5,
 											"width": 192,
 											"height": 13,
 											"text": "Consulter ses points de fidelité"
@@ -1507,7 +1507,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 266,
-									"top": 391.5,
+									"top": 388.5,
 									"width": 202.8671875,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1596,12 +1596,30 @@
 									"model": {
 										"$ref": "AAAAAAGG2vvqmapKS24="
 									},
-									"visible": false,
+									"subViews": [
+										{
+											"_type": "UMLExtensionPointView",
+											"_id": "AAAAAAGG2wWWcM0kzbc=",
+											"_parent": {
+												"$ref": "AAAAAAGG2vvqmqpWt+o="
+											},
+											"model": {
+												"$ref": "AAAAAAGG2wWWY80hsJA="
+											},
+											"font": "Arial;13;0",
+											"left": 229,
+											"top": 423,
+											"width": 276,
+											"height": 13,
+											"text": "au moment de l'obtention du solde",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
-									"left": -56,
-									"top": -40,
-									"width": 10,
-									"height": 10
+									"left": 224,
+									"top": 418,
+									"width": 286,
+									"height": 23
 								}
 							],
 							"font": "Arial;13;0",
@@ -1609,7 +1627,7 @@
 							"left": 224,
 							"top": 384,
 							"width": 286,
-							"height": 41,
+							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGG2vvqmapNWP8="
 							},
@@ -2134,8 +2152,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 467,
-									"top": 471,
+									"left": 477,
+									"top": 479,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2154,8 +2172,8 @@
 										"$ref": "AAAAAAGG2v1d8KsCJJQ="
 									},
 									"font": "Arial;13;0",
-									"left": 434,
-									"top": 484,
+									"left": 444,
+									"top": 492,
 									"width": 53.49169921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2177,8 +2195,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 482,
-									"top": 444,
+									"left": 490,
+									"top": 452,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2196,7 +2214,7 @@
 								"$ref": "AAAAAAGG2vxD36qBT3s="
 							},
 							"lineStyle": 1,
-							"points": "546:503;404:425",
+							"points": "544:503;425:442",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGG2v1d8KsFqmo="
@@ -2219,7 +2237,7 @@
 							"top": 400,
 							"width": 169,
 							"height": 51,
-							"text": "Si solde de points seuil d'édition de chèque de fidélité"
+							"text": "Si solde de points > seuil d'édition de chèque de fidélité"
 						},
 						{
 							"_type": "UMLAssociationView",
@@ -2512,8 +2530,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 191,
-									"top": 411,
+									"left": 184,
+									"top": 415,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2533,8 +2551,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 189,
-									"top": 396,
+									"left": 182,
+									"top": 400,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -2554,8 +2572,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 196,
-									"top": 440,
+									"left": 189,
+									"top": 444,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2576,7 +2594,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 174,
-									"top": 414,
+									"top": 416,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -2596,8 +2614,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 174,
-									"top": 400,
+									"left": 175,
+									"top": 403,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -2618,7 +2636,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 174,
-									"top": 441,
+									"top": 444,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -2638,8 +2656,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 208,
-									"top": 408,
+									"left": 195,
+									"top": 413,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -2658,8 +2676,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 204,
-									"top": 395,
+									"left": 191,
+									"top": 400,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -2678,8 +2696,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 217,
-									"top": 434,
+									"left": 203,
+									"top": 440,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -2724,7 +2742,7 @@
 								"$ref": "AAAAAAGG2voJ/KknJJk="
 							},
 							"lineStyle": 1,
-							"points": "151:439;237:425",
+							"points": "151:441;223:431",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGG2v6ilqvxn3E="
@@ -3045,30 +3063,7 @@
 								"$ref": "AAAAAAGG2v299asXREc="
 							},
 							"lineStyle": 1,
-							"points": "551:446;475:464"
-						},
-						{
-							"_type": "FreelineEdgeView",
-							"_id": "AAAAAAGG2v9/gLR5oPE=",
-							"_parent": {
-								"$ref": "AAAAAAFFxl9JTz9kpKI="
-							},
-							"font": "Arial;13;0",
-							"lineStyle": 1,
-							"points": "256:432;403:433"
-						},
-						{
-							"_type": "UMLTextView",
-							"_id": "AAAAAAGG2wAdWrXYCZM=",
-							"_parent": {
-								"$ref": "AAAAAAFFxl9JTz9kpKI="
-							},
-							"font": "Arial;13;0",
-							"left": 256,
-							"top": 432,
-							"width": 145,
-							"height": 41,
-							"text": "au moment de l'obtention du solde"
+							"points": "552:451;484:472"
 						},
 						{
 							"_type": "UMLTextView",
@@ -3204,7 +3199,17 @@
 							"_parent": {
 								"$ref": "AAAAAAGG2vmzBajh3/c="
 							},
-							"name": "Consulter ses points de fidelité"
+							"name": "Consulter ses points de fidelité",
+							"extensionPoints": [
+								{
+									"_type": "UMLExtensionPoint",
+									"_id": "AAAAAAGG2wWWY80hsJA=",
+									"_parent": {
+										"$ref": "AAAAAAGG2vvqmapKS24="
+									},
+									"name": "au moment de l'obtention du solde"
+								}
+							]
 						},
 						{
 							"_type": "UMLUseCase",
