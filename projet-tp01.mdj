@@ -9056,6 +9056,19 @@
 									"top": 400,
 									"width": 23,
 									"height": 19
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAGG764sRavIUkI=",
+									"_parent": {
+										"$ref": "AAAAAAGG7vvWU2jBJFg="
+									},
+									"font": "Arial;13;0",
+									"left": 672,
+									"top": 472,
+									"width": 329,
+									"height": 25,
+									"text": "Diagramme d'activités (coté Prêteur)"
 								}
 							]
 						}
